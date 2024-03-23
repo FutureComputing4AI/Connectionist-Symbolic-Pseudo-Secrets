@@ -27,7 +27,7 @@ tic = time.time()
 for epoch in range(1, epochs + 1):
     train_loss = []
     train_acc = []
-    for i, data in enumerate(test_loader, 0):
+    for i, data in enumerate(train_loader, 0):
         x_true_batch, y_true_batch = data[0].to(device), data[1].to(device)
 
         y_true_batch = one_hot[y_true_batch.long()]

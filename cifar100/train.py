@@ -27,7 +27,7 @@ if __name__ == '__main__':
     for epoch in range(1, epochs + 1):
         train_loss = []
         train_acc = []
-        for data in test_loader:
+        for data in train_loader:
             x_true_batch, y_true_batch = data[0].to(device), data[1].to(device)
             y_true_batch = one_hot[y_true_batch.long()]
 

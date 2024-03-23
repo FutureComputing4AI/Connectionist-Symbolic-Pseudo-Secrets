@@ -55,12 +55,14 @@ The accuracy of CSPS drops compared to the Base model due to the extra security 
   <img src="https://user-images.githubusercontent.com/37298971/170303310-922af26b-2d5c-44df-a4a3-6caed991ab06.png" width="550">
 </p>
 
-
-Citations
 ---
-If you use our work, please cite us using the below bibtex. We will update when the ICML proceedings provide the official citation style.
+## Citations
 
-1. [Deploying Convolutional Networks on Untrusted Platforms Using 2D Holographic Reduced Representations @ ICML 2022](http://arxiv.org/abs/2206.05893)
+[![Paper](https://img.shields.io/badge/paper-ICML22-90fc03.svg?longCache=true&style=flat)](http://arxiv.org/abs/2206.05893)
+
+[Deploying Convolutional Networks on Untrusted Platforms Using 2D Holographic Reduced Representations @ ICML 2022](http://arxiv.org/abs/2206.05893)
+
+If you use our work, please cite us using the below bibtex. We will update when the ICML proceedings provide the official citation style. Cite the paper as:
 
 ```bibtex
 @inproceedings{Alam2022,
